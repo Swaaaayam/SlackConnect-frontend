@@ -46,6 +46,8 @@ Architectural Overview
 Frontend: The frontend is a single-page application built with React and TypeScript. It uses a MessageForm component for user input and a ScheduledMessagesList component to display pending messages. All styling is handled by Tailwind CSS, making the UI fully responsive.
 
 Challenges & Learnings
+
+
 OAuth 2.0 Flow: Successfully implementing the OAuth 2.0 flow, especially handling the redirect and token exchange, was a key challenge.
 
 Token Management: The automatic refresh token logic was critical to ensuring the application could maintain a connection to Slack without user re-authentication.
